@@ -8,3 +8,5 @@ To generate an optimal route:
 * if you downloaded only wind, the param `Wind Grib Dataset index` should be set at 0; if not, please check which one contains the wind, using `Layer>Properties>Source>Datasets` (the first one has index 0
 * if your layer is not shown, deactivate the time panel
 * doble check that your start and end point fall outside land masses; currently the plugin uses a rough coastline (natural earth `ne_10m_ocean`, you can find it in the plugin source directory)
+
+The work is based on the library https://github.com/dakk/libweatherrouting/ which is gratefully acknowledged.
