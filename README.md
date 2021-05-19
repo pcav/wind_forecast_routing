@@ -9,8 +9,10 @@ The plugin is based on [libweatherrouting routing library](https://github.com/da
 
 ## The plugin itself
 
-For the time being the plugin is installed manually, by downloading the zip from: https://github.com/enricofer/wind_forecast_routing/archive/refs/heads/master.zip (soon it will be published in the official repository of QGIS, therefore it will be installed via ``Plugins>Manage and install plugins``, then search and click on ``Install``).
-The plugin will be shown under ``Processing`` tab.
+For the time being the plugin has to be installed manually, by downloading the zip from: https://github.com/enricofer/wind_forecast_routing/archive/refs/heads/master.zip and install it with ``Plugins>Manage and install plugins>Install from ZIP`` (soon it will be published in the official repository of QGIS, therefore it will be installed via ``Plugins>Manage and install plugins``, then search and click on ``Install``).
+
+Once installed, the plugin will be shown under ``Processing`` tab.
+
 To generate an optimal route:
 * download a GRIB file, e.g. using https://plugins.qgis.org/plugins/gribdownloader/
  * suggested parameters: model from `ICON_EU`, interval 1 (1 hour), period 5
